@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FoodImage" representedClassName="FoodImage" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="descr" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HealthStatus" representedClassName="HealthStatus" syncable="YES" codeGenerationType="class">
+        <attribute name="dateChallengeStarted" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastPhotoFood" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastPhotoWater" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="FoodImage" positionX="-63" positionY="9" width="128" height="103"/>
+        <element name="HealthStatus" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>
